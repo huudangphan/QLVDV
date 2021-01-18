@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MM:Instances xmlns:MM="http://schemas.microsoft.com/sqlserver/ManagementModel/Serialization/2010/11" xmlns:RE="http://schemas.microsoft.com/sqlserver/RelationalEngine/Serialization/2010/11">
+    <RE:RelationalIndex MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/RelationalIndex[PK_Boi]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]" />
+        <RE:CompactLargeObjects>True</RE:CompactLargeObjects>
+        <RE:DisallowPageLocks>False</RE:DisallowPageLocks>
+        <RE:DisallowRowLocks>False</RE:DisallowRowLocks>
+        <RE:FillFactor>0</RE:FillFactor>
+        <RE:FilterDefinition></RE:FilterDefinition>
+        <RE:IgnoreDuplicateKeys>False</RE:IgnoreDuplicateKeys>
+        <RE:IndexKey MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/PrimaryKeyConstraint[PK_Boi]" />
+        <RE:IndexedColumns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/RelationalIndex[PK_Boi]/IndexedColumn[MaVDV_boi]" />
+        </RE:IndexedColumns>
+        <RE:IsClustered>True</RE:IsClustered>
+        <RE:IsDisabled>False</RE:IsDisabled>
+        <RE:IsUnique>True</RE:IsUnique>
+        <RE:MaximumDegreeOfParallelism>-1</RE:MaximumDegreeOfParallelism>
+        <RE:Name>PK_Boi</RE:Name>
+        <RE:NoAutomaticRecomputation>False</RE:NoAutomaticRecomputation>
+        <RE:OnlineIndexOperation>False</RE:OnlineIndexOperation>
+        <RE:PadIndex>False</RE:PadIndex>
+        <RE:SortInTempdb>False</RE:SortInTempdb>
+    </RE:RelationalIndex>
+    <RE:RelationalIndex MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/RelationalIndex[PK_Bomon_1]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]" />
+        <RE:CompactLargeObjects>True</RE:CompactLargeObjects>
+        <RE:DisallowPageLocks>False</RE:DisallowPageLocks>
+        <RE:DisallowRowLocks>False</RE:DisallowRowLocks>
+        <RE:FillFactor>0</RE:FillFactor>
+        <RE:FilterDefinition></RE:FilterDefinition>
+        <RE:IgnoreDuplicateKeys>False</RE:IgnoreDuplicateKeys>
+        <RE:IndexKey MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/PrimaryKeyConstraint[PK_Bomon_1]" />
+        <RE:IndexedColumns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/RelationalIndex[PK_Bomon_1]/IndexedColumn[MaBM]" />
+        </RE:IndexedColumns>
+        <RE:IsClustered>True</RE:IsClustered>
+        <RE:IsDisabled>False</RE:IsDisabled>
+        <RE:IsUnique>True</RE:IsUnique>
+        <RE:MaximumDegreeOfParallelism>-1</RE:MaximumDegreeOfParallelism>
+        <RE:Name>PK_Bomon_1</RE:Name>
+        <RE:NoAutomaticRecomputation>False</RE:NoAutomaticRecomputation>
+        <RE:OnlineIndexOperation>False</RE:OnlineIndexOperation>
+        <RE:PadIndex>False</RE:PadIndex>
+        <RE:SortInTempdb>False</RE:SortInTempdb>
+    </RE:RelationalIndex>
+    <RE:RelationalIndex MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/RelationalIndex[PK_BongDa]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]" />
+        <RE:CompactLargeObjects>True</RE:CompactLargeObjects>
+        <RE:DisallowPageLocks>False</RE:DisallowPageLocks>
+        <RE:DisallowRowLocks>False</RE:DisallowRowLocks>
+        <RE:FillFactor>0</RE:FillFactor>
+        <RE:FilterDefinition></RE:FilterDefinition>
+        <RE:IgnoreDuplicateKeys>False</RE:IgnoreDuplicateKeys>
+        <RE:IndexKey MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/PrimaryKeyConstraint[PK_BongDa]" />
+        <RE:IndexedColumns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/RelationalIndex[PK_BongDa]/IndexedColumn[MaVDV_bd]" />
+        </RE:IndexedColumns>
+        <RE:IsClustered>True</RE:IsClustered>
+        <RE:IsDisabled>False</RE:IsDisabled>
+        <RE:IsUnique>True</RE:IsUnique>
+        <RE:MaximumDegreeOfParallelism>-1</RE:MaximumDegreeOfParallelism>
+        <RE:Name>PK_BongDa</RE:Name>
+        <RE:NoAutomaticRecomputation>False</RE:NoAutomaticRecomputation>
+        <RE:OnlineIndexOperation>False</RE:OnlineIndexOperation>
+        <RE:PadIndex>False</RE:PadIndex>
+        <RE:SortInTempdb>False</RE:SortInTempdb>
+    </RE:RelationalIndex>
+    <RE:RelationalIndex MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/RelationalIndex[PK_DienKinh]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]" />
+        <RE:CompactLargeObjects>True</RE:CompactLargeObjects>
+        <RE:DisallowPageLocks>False</RE:DisallowPageLocks>
+        <RE:DisallowRowLocks>False</RE:DisallowRowLocks>
+        <RE:FillFactor>0</RE:FillFactor>
+        <RE:FilterDefinition></RE:FilterDefinition>
+        <RE:IgnoreDuplicateKeys>False</RE:IgnoreDuplicateKeys>
+        <RE:IndexKey MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/PrimaryKeyConstraint[PK_DienKinh]" />
+        <RE:IndexedColumns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/RelationalIndex[PK_DienKinh]/IndexedColumn[MaVDV_dk]" />
+        </RE:IndexedColumns>
+        <RE:IsClustered>True</RE:IsClustered>
+        <RE:IsDisabled>False</RE:IsDisabled>
+        <RE:IsUnique>True</RE:IsUnique>
+        <RE:MaximumDegreeOfParallelism>-1</RE:MaximumDegreeOfParallelism>
+        <RE:Name>PK_DienKinh</RE:Name>
+        <RE:NoAutomaticRecomputation>False</RE:NoAutomaticRecomputation>
+        <RE:OnlineIndexOperation>False</RE:OnlineIndexOperation>
+        <RE:PadIndex>False</RE:PadIndex>
+        <RE:SortInTempdb>False</RE:SortInTempdb>
+    </RE:RelationalIndex>
+    <RE:RelationalIndex MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/RelationalIndex[PK_NhayCao]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]" />
+        <RE:CompactLargeObjects>True</RE:CompactLargeObjects>
+        <RE:DisallowPageLocks>False</RE:DisallowPageLocks>
+        <RE:DisallowRowLocks>False</RE:DisallowRowLocks>
+        <RE:FillFactor>0</RE:FillFactor>
+        <RE:FilterDefinition></RE:FilterDefinition>
+        <RE:IgnoreDuplicateKeys>False</RE:IgnoreDuplicateKeys>
+        <RE:IndexKey MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/PrimaryKeyConstraint[PK_NhayCao]" />
+        <RE:IndexedColumns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/RelationalIndex[PK_NhayCao]/IndexedColumn[MaVDV_nc]" />
+        </RE:IndexedColumns>
+        <RE:IsClustered>True</RE:IsClustered>
+        <RE:IsDisabled>False</RE:IsDisabled>
+        <RE:IsUnique>True</RE:IsUnique>
+        <RE:MaximumDegreeOfParallelism>-1</RE:MaximumDegreeOfParallelism>
+        <RE:Name>PK_NhayCao</RE:Name>
+        <RE:NoAutomaticRecomputation>False</RE:NoAutomaticRecomputation>
+        <RE:OnlineIndexOperation>False</RE:OnlineIndexOperation>
+        <RE:PadIndex>False</RE:PadIndex>
+        <RE:SortInTempdb>False</RE:SortInTempdb>
+    </RE:RelationalIndex>
+    <RE:RelationalIndex MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/RelationalIndex[PK_Nhayxa]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]" />
+        <RE:CompactLargeObjects>True</RE:CompactLargeObjects>
+        <RE:DisallowPageLocks>False</RE:DisallowPageLocks>
+        <RE:DisallowRowLocks>False</RE:DisallowRowLocks>
+        <RE:FillFactor>0</RE:FillFactor>
+        <RE:FilterDefinition></RE:FilterDefinition>
+        <RE:IgnoreDuplicateKeys>False</RE:IgnoreDuplicateKeys>
+        <RE:IndexKey MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/PrimaryKeyConstraint[PK_Nhayxa]" />
+        <RE:IndexedColumns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/RelationalIndex[PK_Nhayxa]/IndexedColumn[MaVDV_nx]" />
+        </RE:IndexedColumns>
+        <RE:IsClustered>True</RE:IsClustered>
+        <RE:IsDisabled>False</RE:IsDisabled>
+        <RE:IsUnique>True</RE:IsUnique>
+        <RE:MaximumDegreeOfParallelism>-1</RE:MaximumDegreeOfParallelism>
+        <RE:Name>PK_Nhayxa</RE:Name>
+        <RE:NoAutomaticRecomputation>False</RE:NoAutomaticRecomputation>
+        <RE:OnlineIndexOperation>False</RE:OnlineIndexOperation>
+        <RE:PadIndex>False</RE:PadIndex>
+        <RE:SortInTempdb>False</RE:SortInTempdb>
+    </RE:RelationalIndex>
+    <RE:RelationalIndex MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/RelationalIndex[PK_VDV]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]" />
+        <RE:CompactLargeObjects>True</RE:CompactLargeObjects>
+        <RE:DisallowPageLocks>False</RE:DisallowPageLocks>
+        <RE:DisallowRowLocks>False</RE:DisallowRowLocks>
+        <RE:FillFactor>0</RE:FillFactor>
+        <RE:FilterDefinition></RE:FilterDefinition>
+        <RE:IgnoreDuplicateKeys>False</RE:IgnoreDuplicateKeys>
+        <RE:IndexKey MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/PrimaryKeyConstraint[PK_VDV]" />
+        <RE:IndexedColumns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/RelationalIndex[PK_VDV]/IndexedColumn[MaVDV]" />
+        </RE:IndexedColumns>
+        <RE:IsClustered>True</RE:IsClustered>
+        <RE:IsDisabled>False</RE:IsDisabled>
+        <RE:IsUnique>True</RE:IsUnique>
+        <RE:MaximumDegreeOfParallelism>-1</RE:MaximumDegreeOfParallelism>
+        <RE:Name>PK_VDV</RE:Name>
+        <RE:NoAutomaticRecomputation>False</RE:NoAutomaticRecomputation>
+        <RE:OnlineIndexOperation>False</RE:OnlineIndexOperation>
+        <RE:PadIndex>False</RE:PadIndex>
+        <RE:SortInTempdb>False</RE:SortInTempdb>
+    </RE:RelationalIndex>
+    <RE:IndexedColumn MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/RelationalIndex[PK_Boi]/IndexedColumn[MaVDV_boi]">
+        <RE:IsIncluded>False</RE:IsIncluded>
+        <RE:ReferencedColumn MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[MaVDV_boi]" />
+        <RE:SortOrder>Ascending</RE:SortOrder>
+    </RE:IndexedColumn>
+    <RE:IndexedColumn MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/RelationalIndex[PK_Bomon_1]/IndexedColumn[MaBM]">
+        <RE:IsIncluded>False</RE:IsIncluded>
+        <RE:ReferencedColumn MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/Column[MaBM]" />
+        <RE:SortOrder>Ascending</RE:SortOrder>
+    </RE:IndexedColumn>
+    <RE:IndexedColumn MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/RelationalIndex[PK_BongDa]/IndexedColumn[MaVDV_bd]">
+        <RE:IsIncluded>False</RE:IsIncluded>
+        <RE:ReferencedColumn MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[MaVDV_bd]" />
+        <RE:SortOrder>Ascending</RE:SortOrder>
+    </RE:IndexedColumn>
+    <RE:IndexedColumn MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/RelationalIndex[PK_DienKinh]/IndexedColumn[MaVDV_dk]">
+        <RE:IsIncluded>False</RE:IsIncluded>
+        <RE:ReferencedColumn MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[MaVDV_dk]" />
+        <RE:SortOrder>Ascending</RE:SortOrder>
+    </RE:IndexedColumn>
+    <RE:IndexedColumn MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/RelationalIndex[PK_NhayCao]/IndexedColumn[MaVDV_nc]">
+        <RE:IsIncluded>False</RE:IsIncluded>
+        <RE:ReferencedColumn MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[MaVDV_nc]" />
+        <RE:SortOrder>Ascending</RE:SortOrder>
+    </RE:IndexedColumn>
+    <RE:IndexedColumn MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/RelationalIndex[PK_Nhayxa]/IndexedColumn[MaVDV_nx]">
+        <RE:IsIncluded>False</RE:IsIncluded>
+        <RE:ReferencedColumn MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[MaVDV_nx]" />
+        <RE:SortOrder>Ascending</RE:SortOrder>
+    </RE:IndexedColumn>
+    <RE:IndexedColumn MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/RelationalIndex[PK_VDV]/IndexedColumn[MaVDV]">
+        <RE:IsIncluded>False</RE:IsIncluded>
+        <RE:ReferencedColumn MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[MaVDV]" />
+        <RE:SortOrder>Ascending</RE:SortOrder>
+    </RE:IndexedColumn>
+    <RE:Login MM:Key="/Login[DESKTOP-B2G296K\NH]">
+        <RE:Language>us_english</RE:Language>
+        <RE:LoginType>Windows</RE:LoginType>
+        <RE:Name>DESKTOP-B2G296K\NH</RE:Name>
+    </RE:Login>
+</MM:Instances>

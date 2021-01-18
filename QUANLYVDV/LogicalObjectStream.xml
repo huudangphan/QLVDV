@@ -1,0 +1,1105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MM:Instances xmlns:MM="http://schemas.microsoft.com/sqlserver/ManagementModel/Serialization/2010/11" xmlns:RE="http://schemas.microsoft.com/sqlserver/RelationalEngine/Serialization/2010/11">
+    <RE:Database MM:Key="/Database[QUANLYVDV]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:CompatibilityLevel>Version100</RE:CompatibilityLevel>
+        <RE:Name>QUANLYVDV</RE:Name>
+    </RE:Database>
+    <RE:Schema MM:Key="/Database[QUANLYVDV]/Schema[dbo]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]" />
+        <RE:Name>dbo</RE:Name>
+        <RE:Owner MM:ReferenceKey="/Database[QUANLYVDV]/User[dbo]" />
+    </RE:Schema>
+    <RE:Table MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]" />
+        <RE:Columns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[MaVDV_boi]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[TenVDV_boi]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[gioitinh]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[MaBM_boi]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[cannang_boi]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[chieucao_boi]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[Tttnhat_boi_100m]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[Tttnhat_boi_200m]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[Tttnhat_boi_500m]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[ttsk]" />
+        </RE:Columns>
+        <RE:IsQuotedIdentifierOn>True</RE:IsQuotedIdentifierOn>
+        <RE:Name>Boi</RE:Name>
+    </RE:Table>
+    <RE:Table MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]" />
+        <RE:Columns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/Column[MaBM]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/Column[TenBM]" />
+        </RE:Columns>
+        <RE:IsQuotedIdentifierOn>True</RE:IsQuotedIdentifierOn>
+        <RE:Name>Bomon</RE:Name>
+    </RE:Table>
+    <RE:Table MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]" />
+        <RE:Columns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[MaVDV_bd]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[TenVDV_bd]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[gioitinh]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[MaBM_bd]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[Vị trí]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[chieucao]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[cannang]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[ttsk]" />
+        </RE:Columns>
+        <RE:IsQuotedIdentifierOn>True</RE:IsQuotedIdentifierOn>
+        <RE:Name>BongDa</RE:Name>
+    </RE:Table>
+    <RE:Table MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]" />
+        <RE:Columns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[MaVDV_dk]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[TenVDV_dk]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[gioitinh]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[MaBM_dk]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[chieucao]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[cannang]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[Tttnhat_dk_100m]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[Tttnhat_dk_200m]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[Tttnhat_dk_500m]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[Tttnhat_dk_1000m]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[ttsk]" />
+        </RE:Columns>
+        <RE:IsQuotedIdentifierOn>True</RE:IsQuotedIdentifierOn>
+        <RE:Name>DienKinh</RE:Name>
+    </RE:Table>
+    <RE:Table MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]" />
+        <RE:Columns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[MaVDV_nc]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[Ten_VDV_nc]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[gioitinh]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[MaBM_nc]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[chieucao_nc]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[cannang_nc]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[Tttnhat_nc]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[ttsk]" />
+        </RE:Columns>
+        <RE:IsQuotedIdentifierOn>True</RE:IsQuotedIdentifierOn>
+        <RE:Name>NhayCao</RE:Name>
+    </RE:Table>
+    <RE:Table MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]" />
+        <RE:Columns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[MaVDV_nx]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[TenVDV_nx]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[gioitinh]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[MaBM_nx]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[cannang_nx]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[chieucao_nx]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[Tttnhat_nx]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[ttsk]" />
+        </RE:Columns>
+        <RE:IsQuotedIdentifierOn>True</RE:IsQuotedIdentifierOn>
+        <RE:Name>Nhayxa</RE:Name>
+    </RE:Table>
+    <RE:Table MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[TaiKhoan]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]" />
+        <RE:Columns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[TaiKhoan]/Column[name]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[TaiKhoan]/Column[pass]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[TaiKhoan]/Column[type]" />
+        </RE:Columns>
+        <RE:IsQuotedIdentifierOn>True</RE:IsQuotedIdentifierOn>
+        <RE:Name>TaiKhoan</RE:Name>
+    </RE:Table>
+    <RE:Table MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]" />
+        <RE:Columns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[MaVDV]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[TenVDV]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[MaBoMon]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[NamSinh]" />
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[BoMon]" />
+        </RE:Columns>
+        <RE:IsQuotedIdentifierOn>True</RE:IsQuotedIdentifierOn>
+        <RE:Name>VDV</RE:Name>
+    </RE:Table>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[MaVDV_boi]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaVDV_boi</RE:Name>
+        <RE:Nullable>False</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[TenVDV_boi]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Char</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>TenVDV_boi</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[gioitinh]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>10</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>gioitinh</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[MaBM_boi]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaBM_boi</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[cannang_boi]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>cannang_boi</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[chieucao_boi]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>chieucao_boi</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[Tttnhat_boi_100m]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Tttnhat_boi_100m</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[Tttnhat_boi_200m]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Tttnhat_boi_200m</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[Tttnhat_boi_500m]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Tttnhat_boi_500m</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/Column[ttsk]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>ttsk</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:PrimaryKeyConstraint MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/PrimaryKeyConstraint[PK_Boi]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]" />
+        <RE:AssociatedIndex MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Boi]/RelationalIndex[PK_Boi]" />
+        <RE:Name>PK_Boi</RE:Name>
+    </RE:PrimaryKeyConstraint>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/Column[MaBM]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaBM</RE:Name>
+        <RE:Nullable>False</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/Column[TenBM]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Char</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>TenBM</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:PrimaryKeyConstraint MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/PrimaryKeyConstraint[PK_Bomon_1]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]" />
+        <RE:AssociatedIndex MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/RelationalIndex[PK_Bomon_1]" />
+        <RE:Name>PK_Bomon_1</RE:Name>
+    </RE:PrimaryKeyConstraint>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[MaVDV_bd]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaVDV_bd</RE:Name>
+        <RE:Nullable>False</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[TenVDV_bd]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Char</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>TenVDV_bd</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[gioitinh]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>10</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>gioitinh</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[MaBM_bd]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaBM_bd</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[Vị trí]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Char</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Vị trí</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[chieucao]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>chieucao</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[cannang]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>cannang</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/Column[ttsk]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>ttsk</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:PrimaryKeyConstraint MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/PrimaryKeyConstraint[PK_BongDa]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]" />
+        <RE:AssociatedIndex MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[BongDa]/RelationalIndex[PK_BongDa]" />
+        <RE:Name>PK_BongDa</RE:Name>
+    </RE:PrimaryKeyConstraint>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[MaVDV_dk]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaVDV_dk</RE:Name>
+        <RE:Nullable>False</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[TenVDV_dk]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Char</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>TenVDV_dk</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[gioitinh]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>10</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>gioitinh</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[MaBM_dk]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaBM_dk</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[chieucao]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>chieucao</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[cannang]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>cannang</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[Tttnhat_dk_100m]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Tttnhat_dk_100m</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[Tttnhat_dk_200m]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Tttnhat_dk_200m</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[Tttnhat_dk_500m]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Tttnhat_dk_500m</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[Tttnhat_dk_1000m]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Tttnhat_dk_1000m</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/Column[ttsk]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>20</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>ttsk</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:PrimaryKeyConstraint MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/PrimaryKeyConstraint[PK_DienKinh]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]" />
+        <RE:AssociatedIndex MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[DienKinh]/RelationalIndex[PK_DienKinh]" />
+        <RE:Name>PK_DienKinh</RE:Name>
+    </RE:PrimaryKeyConstraint>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[MaVDV_nc]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaVDV_nc</RE:Name>
+        <RE:Nullable>False</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[Ten_VDV_nc]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Char</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Ten_VDV_nc</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[gioitinh]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>10</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>gioitinh</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[MaBM_nc]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaBM_nc</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[chieucao_nc]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>chieucao_nc</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[cannang_nc]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>cannang_nc</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[Tttnhat_nc]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Tttnhat_nc</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/Column[ttsk]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>20</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>ttsk</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:PrimaryKeyConstraint MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/PrimaryKeyConstraint[PK_NhayCao]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]" />
+        <RE:AssociatedIndex MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[NhayCao]/RelationalIndex[PK_NhayCao]" />
+        <RE:Name>PK_NhayCao</RE:Name>
+    </RE:PrimaryKeyConstraint>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[MaVDV_nx]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaVDV_nx</RE:Name>
+        <RE:Nullable>False</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[TenVDV_nx]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Char</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>TenVDV_nx</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[gioitinh]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>10</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>gioitinh</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[MaBM_nx]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaBM_nx</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[cannang_nx]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>cannang_nx</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[chieucao_nx]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>chieucao_nx</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[Tttnhat_nx]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Float</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>Tttnhat_nx</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/Column[ttsk]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>20</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>ttsk</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:PrimaryKeyConstraint MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/PrimaryKeyConstraint[PK_Nhayxa]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]" />
+        <RE:AssociatedIndex MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Nhayxa]/RelationalIndex[PK_Nhayxa]" />
+        <RE:Name>PK_Nhayxa</RE:Name>
+    </RE:PrimaryKeyConstraint>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[TaiKhoan]/Column[name]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>name</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[TaiKhoan]/Column[pass]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>pass</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[TaiKhoan]/Column[type]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Int</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>type</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[MaVDV]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaVDV</RE:Name>
+        <RE:Nullable>False</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[TenVDV]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Char</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>TenVDV</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[MaBoMon]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>NVarChar</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>MaBoMon</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[NamSinh]">
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>0</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Date</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>NamSinh</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:Column MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[BoMon]">
+        <RE:Collation>
+            <RE:Name>SQL_Latin1_General_CP1_CI_AS</RE:Name>
+        </RE:Collation>
+        <RE:DataType>
+            <RE:SystemDataType>
+                <RE:Length>50</RE:Length>
+                <RE:NumericPrecision>0</RE:NumericPrecision>
+                <RE:NumericScale>0</RE:NumericScale>
+                <RE:TypeSpec>Char</RE:TypeSpec>
+            </RE:SystemDataType>
+        </RE:DataType>
+        <RE:IsColumnSet>False</RE:IsColumnSet>
+        <RE:IsSparse>False</RE:IsSparse>
+        <RE:Name>BoMon</RE:Name>
+        <RE:Nullable>True</RE:Nullable>
+        <RE:RowGuidCol>False</RE:RowGuidCol>
+    </RE:Column>
+    <RE:ForeignKeyConstraint MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/ForeignKeyConstraint[FK_VDV_Bomon]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]" />
+        <RE:Columns>
+            <MM:Reference MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/ForeignKeyConstraint[FK_VDV_Bomon]/ForeignKeyColumn[MaBoMon]" />
+        </RE:Columns>
+        <RE:DeleteAction>NoAction</RE:DeleteAction>
+        <RE:IsChecked>True</RE:IsChecked>
+        <RE:IsEnabled>True</RE:IsEnabled>
+        <RE:Name>FK_VDV_Bomon</RE:Name>
+        <RE:NotForReplication>False</RE:NotForReplication>
+        <RE:ReferencedTable MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]" />
+        <RE:UpdateAction>NoAction</RE:UpdateAction>
+    </RE:ForeignKeyConstraint>
+    <RE:PrimaryKeyConstraint MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/PrimaryKeyConstraint[PK_VDV]">
+        <RE:Parent MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]" />
+        <RE:AssociatedIndex MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/RelationalIndex[PK_VDV]" />
+        <RE:Name>PK_VDV</RE:Name>
+    </RE:PrimaryKeyConstraint>
+    <RE:ForeignKeyColumn MM:Key="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/ForeignKeyConstraint[FK_VDV_Bomon]/ForeignKeyColumn[MaBoMon]">
+        <RE:ReferencedColumn MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[Bomon]/Column[MaBM]" />
+        <RE:ReferencingColumn MM:ReferenceKey="/Database[QUANLYVDV]/Schema[dbo]/Table[VDV]/Column[MaBoMon]" />
+    </RE:ForeignKeyColumn>
+</MM:Instances>
